@@ -1,0 +1,27 @@
+{
+  "name": "ai-interior-designer",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+
+  "homepage": "https://github.com/ApoloH4ck/CPS-RomaDeluxeApartments.git",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
